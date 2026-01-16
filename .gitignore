@@ -4,3 +4,10 @@ a2a-scenario.toml
 .env
 .env.example
 output/
+
+# Development directories (not needed for leaderboard)
+.claude/agents/
+.claude/commands/
+.claude/scripts/
+.claude/skills/
+.claude/templates/
