@@ -1,16 +1,19 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019bc41c-6d9c-7010-b4ae-04f36cefdcce"
+env = { LLM_API_KEY = "${LLM_API_KEY}", LLM_PROVIDER = "${LLM_PROVIDER}" }
 
 [[participants]]
 agentbeats_id = ""
-name = "role_1_name"
+name = "agent_1"
+image = ""
 env = {}
 
 [[participants]]
 agentbeats_id = ""
-name = "role_2_name"
+name = "agent_2"
+image = ""
 env = {}
 
 [config]
-# Add your assessment config here
+# Evaluation parameters
+evaluation_tiers = ["graph", "llm_judge"]  # tier 1 + tier 2
