@@ -5,12 +5,14 @@ env = { LLM_API_KEY = "${LLM_API_KEY}", LLM_PROVIDER = "${LLM_PROVIDER}" }
 
 [[participants]]
 name = "agent_1"
-image = "ghcr.io/qte77/agentbeats-purpleagent:latest"
+agentbeats_id = "019bc7a8-7e9b-7611-b110-28c01e7e7221"
+# image = "ghcr.io/qte77/agentbeats-purpleagent:latest"
 env = {}
 
 [[participants]]
 name = "agent_2"
-image = "ghcr.io/qte77/agentbeats-purpleagent:latest"
+agentbeats_id = "019bc7a8-7e9b-7611-b110-28c01e7e7221"
+# image = "ghcr.io/qte77/agentbeats-purpleagent:latest"
 env = {}
 
 [config]
