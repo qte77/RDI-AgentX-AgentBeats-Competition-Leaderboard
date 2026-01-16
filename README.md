@@ -2,7 +2,7 @@
 
 <!-- markdownlint-disable MD013 -->
 
-Leaderboard for the [GraphJudge](https://agentbeats.dev/qte77/graphjudge) green agent evaluating multi-agent coordination quality.
+Leaderboard for the [GraphJudge](https://agentbeats.dev/qte77/graphjudge) green agent evaluating multi-agent coordination quality. See the Green Agent at [RDI-AgentX-AgentBeats-Competition](https://github.com/qte77/RDI-AgentX-AgentBeats-Competition) and [agentbeats-leaderboard-template](https://github.com/RDI-Foundation/agentbeats-leaderboard-template).
 
 ## How It Works
 
