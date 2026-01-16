@@ -1,6 +1,6 @@
 [green_agent]
 agentbeats_id = "019bc41c-6d9c-7010-b4ae-04f36cefdcce"
-image = "ghcr.io/qte77/agentbeats-greenagent:latest"
+# image = "ghcr.io/qte77/agentbeats-greenagent:latest"
 env = { LLM_API_KEY = "${LLM_API_KEY}", LLM_PROVIDER = "${LLM_PROVIDER}" }
 
 [[participants]]
